@@ -4,7 +4,7 @@ Go语言1.16中的静态资源使用示例
 # 验证方法
 1. 保持`static/index.html`文件内容中的第9行的h2文本为`embed mode`
 2. 编译输出一个可执行文件并执行它，不带任何参数，此时会加载编译时已经内置进去的static目录中的内容
-4. 在浏览器中访问http://localhost:9100即可访问index.html，此时你会在页面上看到`embed mode`
+4. 在浏览器中访问 http://localhost:9100 即可访问index.html，此时你会在页面上看到`embed mode`
 5. 修改`index.html`，将`embed mode`改为`live mode`，重新运行编译好的程序，带上live参数，此时你会发现网页内容已经变更为`live mode`了
 6. 再重新运行可执行程序，不带任何参数，你会在页面上得到`embed mode`。
 
